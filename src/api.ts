@@ -9,6 +9,7 @@ export const fetchPhotos = async (page: number, perPage: number, query: string) 
     }
   });
   return response.data;
+
 };
 
 export const fetchPosts = async (page: number, perPage: number, query: string) => {
